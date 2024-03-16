@@ -1,0 +1,9 @@
+name: deploy to Eks
+on: 
+  push:
+    branches:
+      - 'master'
+jobs:
+  build:
+    environment:
+      uat-deployment
